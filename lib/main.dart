@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_io/home.dart';
 import 'package:flutter_io/record_audio.dart';
 
 import 'audio_player.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AudioRecorderScreen(),
+      home: const HomeScreen(),
     );
   }
 }
